@@ -1,0 +1,14 @@
+#include <iostream> // input-output stream
+
+using namespace std;
+
+int main(){
+	int a;
+	cin >> a;
+	if(a%2 != 0 || a == 2){
+		cout << "NO" << endl;
+	}
+	else{
+		cout << "YES" << endl;
+	}
+}
